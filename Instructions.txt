@@ -1,0 +1,6 @@
+Here are the steps to set up and run the API on an EC2 instance and connect to RDS MySQL:
+
+Launch an EC2 instance and install Python and Flask on it.
+Configure the instance's firewall settings to allow incoming traffic on port 80 (HTTP) and port 3306 (MySQL).
+Create a new RDS MySQL instance and configure it with the necessary security groups and network settings.
+Create a new database in the RDS MySQL instance with the name 'weather_db'.
